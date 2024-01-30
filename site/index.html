@@ -1,19 +1,20 @@
 ---
+_schema: default
 title: Home
 description: A customisable template built with Jekyll and Bootstrap.
 content_blocks:
   - _bookshop_name: hero-content-section
-    hero_layout: image_right
-    component_width: normal
+    hero_layout: image_left
+    component_width: fullwidth
     mobile_image_order: Top
     vertical_alignment: Center
-    image_type: stretched
+    image_type: contained
     image: /assets/images/homepage/Hero-Illustration-Ani.svg
     image_alt: Hero image
     caption_title:
     hero_title: Work together. Better.
     description_html: >-
-      <p>We're here to help you grow your digital services &mdash; from mobile
+      <p>We're here to help you grow your digital services — from mobile
       development to websites, digital signage to desktop applications, we do it
       all.</p>
     cta_button_label: Find out more
@@ -25,7 +26,7 @@ content_blocks:
   - _bookshop_name: icon-section
     caption_title: Why Us
     main_title: What makes us stand out
-    layout: right
+    icon_layout: right
     items:
       - icon_image: /assets/images/homepage/perfect-strategy.png
         icon_image_alt: Icon image
@@ -51,6 +52,7 @@ content_blocks:
           users every time.</p>
         button_label: Find out more
         button_url:
+    layout: right
   - _bookshop_name: spacer-section
     space: 60
   - _bookshop_name: info-section
@@ -109,4 +111,3 @@ content_blocks:
     button_label: Contact us now
     button_url:
 ---
-
