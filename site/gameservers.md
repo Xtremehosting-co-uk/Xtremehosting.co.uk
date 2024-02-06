@@ -5,4 +5,4 @@ permalink:
 description:
 content_blocks:
 ---
-![ background image]( direct URL of your image )
+![background image](direct%20URL%20of%20your%20image)![](/uploads/hostingbgimage.png)
