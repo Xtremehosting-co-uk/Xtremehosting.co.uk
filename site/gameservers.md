@@ -5,7 +5,16 @@ permalink:
 description:
 content_blocks:
 ---
----
-**NOTE**
-It works with almost all markdown flavours (the below blank line matters).
----...
+\begin{Form}
+    \TextField[width = 10cm,%
+               height = 3cm,%
+               multiline=true,%
+               bordercolor = 0 0 0.5,%
+               backgroundcolor = 0 0 0.5,%
+               color = 1 1 1,%
+               value = {%
+                          This is the textbox.\string\n
+                          I would like a dark blue textbox with white writing
+                        }%
+               ]{}
+\end{Form}
